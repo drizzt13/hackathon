@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.dto;
+package com.expedia.derbysoft.hackathon.hotel;
 
 import java.math.BigDecimal;
 

@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.webservice.util;
+package com.expedia.derbysoft.hackathon.webservice.server;
 
 public abstract class RequestHelper {
 

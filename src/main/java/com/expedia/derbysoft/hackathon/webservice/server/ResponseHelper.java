@@ -1,8 +1,8 @@
-package com.expedia.derbysoft.hackathon.webservice.util;
+package com.expedia.derbysoft.hackathon.webservice.server;
 
 
-import com.expedia.derbysoft.hackathon.dto.ErrorDTO;
-import com.expedia.derbysoft.hackathon.dto.HotelSearchRS;
+import com.expedia.derbysoft.hackathon.webservice.server.dto.ErrorDTO;
+import com.expedia.derbysoft.hackathon.webservice.server.dto.HotelSearchRS;
 
 public abstract class ResponseHelper {
 

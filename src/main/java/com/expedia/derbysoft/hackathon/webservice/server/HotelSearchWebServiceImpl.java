@@ -1,8 +1,8 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
 import com.expedia.derbysoft.hackathon.webservice.HotelSearchWebService;
-import com.expedia.derbysoft.hackathon.dto.HotelSearchRQ;
-import com.expedia.derbysoft.hackathon.dto.HotelSearchRS;
+import com.expedia.derbysoft.hackathon.webservice.server.dto.HotelSearchRQ;
+import com.expedia.derbysoft.hackathon.webservice.server.dto.HotelSearchRS;
 
 /**
  * Created by zhupan on 12/8/15.

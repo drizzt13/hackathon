@@ -1,5 +1,6 @@
-package com.expedia.derbysoft.hackathon.dto;
+package com.expedia.derbysoft.hackathon.webservice.server.dto;
 
+import com.expedia.derbysoft.hackathon.hotel.GeoLocation;
 import com.expedia.derbysoft.hackathon.utils.JsonUtils;
 import org.junit.Test;
 

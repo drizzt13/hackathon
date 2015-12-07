@@ -1,4 +1,6 @@
-package com.expedia.derbysoft.hackathon.dto;
+package com.expedia.derbysoft.hackathon.webservice.server.dto;
+
+import com.expedia.derbysoft.hackathon.hotel.GeoLocation;
 
 import java.math.BigDecimal;
 

@@ -2,7 +2,6 @@ package com.expedia.derbysoft.hackathon.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-import com.expedia.derbysoft.hackathon.dto.HotelSearchRQ;
 
 import java.util.Map;
 
