@@ -1,5 +1,6 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
+import com.expedia.derbysoft.hackathon.utils.latlng.LatLngs;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelInfo;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelSearchSummary;
 import com.expedia.derbysoft.hackathon.webservice.dto.GeoLocation;
@@ -26,7 +27,7 @@ public class MatchedRatingService {
         return rs;
     }
 
-    private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation geoLocation) {
+    private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation location) {
         HotelDTO hotelDTO = new HotelDTO();
         if (hotelInfo.getPrice() != null) {
             hotelDTO.setBaseRate(hotelInfo.getPrice().getBaseRate().getValue());
@@ -35,9 +36,11 @@ public class MatchedRatingService {
         hotelDTO.setHotelID(hotelInfo.getHotelID());
         hotelDTO.setHotelName(hotelInfo.getName());
         hotelDTO.setThumbnailUrl(hotelInfo.getThumbnailUrl());
-        hotelDTO.setLocation(hotelInfo.getLocation().getGeoLocation());
-        hotelDTO.setMatchedRating(BigDecimal.ONE);
-        hotelDTO.setDistance(BigDecimal.ONE);
+        GeoLocation hotelLocation = hotelInfo.getLocation().getGeoLocation();
+        hotelDTO.setLocation(hotelLocation);
+        hotelDTO.setMatchedRating(new BigDecimal("4"));
+        double distance = LatLngs.distance(location.getLatitude(), location.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
+        hotelDTO.setDistance(BigDecimal.valueOf(distance));
         return hotelDTO;
     }
 
