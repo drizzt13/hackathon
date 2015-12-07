@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.webservice.server.dto;
+package com.expedia.derbysoft.hackathon.webservice.dto;
 
 import java.util.ArrayList;
 import java.util.List;

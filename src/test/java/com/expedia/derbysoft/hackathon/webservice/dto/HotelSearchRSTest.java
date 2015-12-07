@@ -1,6 +1,5 @@
-package com.expedia.derbysoft.hackathon.webservice.server.dto;
+package com.expedia.derbysoft.hackathon.webservice.dto;
 
-import com.expedia.derbysoft.hackathon.hotel.GeoLocation;
 import com.expedia.derbysoft.hackathon.utils.JsonUtils;
 import org.junit.Test;
 
@@ -14,7 +13,6 @@ import static org.junit.Assert.assertNotNull;
  * Created by zhupan on 12/8/15.
  */
 public class HotelSearchRSTest {
-
 
     @Test
     public void test() {

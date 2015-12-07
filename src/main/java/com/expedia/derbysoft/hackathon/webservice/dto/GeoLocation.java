@@ -1,12 +1,8 @@
-package com.expedia.derbysoft.hackathon.hotel;
+package com.expedia.derbysoft.hackathon.webservice.dto;
 
 import java.math.BigDecimal;
 
 public class GeoLocation {
-
-    private static final int DEFAULT_SCALE = 8;
-
-    private static final int DEFAULT_PRECISION = 11;
 
     private BigDecimal latitude;
 

@@ -1,5 +1,5 @@
 
-package com.expedia.derbysoft.hackathon.webservice.server.dto;
+package com.expedia.derbysoft.hackathon.webservice.dto;
 
 import java.io.Serializable;
 
