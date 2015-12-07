@@ -1,0 +1,34 @@
+{
+    "error": {
+        "code": "System",
+        "message": "ErrorMsg"
+    },
+    "hotels": [
+        {
+            "baseRate": 120,
+            "detailsUrl": "http://www.expedia.com/go/hotel/info/2163007/2016-05-19/2016-05-22?NumRooms=1&NumAdult-Room1=2&tpid=1&eapid=0&langid=1033",
+            "distance": 1.2,
+            "hotelID": "2163007",
+            "hotelName": "Four Seasons Hotel Seattle",
+            "location": {
+                "latitude": 47.60772,
+                "longitude": -122.33936
+            },
+            "matchedRating": 4.2,
+            "thumbnailUrl": "https://images.trvl-media.com/hotels/3000000/2170000/2163100/2163007/2163007_15_t.jpg"
+        },
+        {
+            "baseRate": 120,
+            "detailsUrl": "http://www.expedia.com/go/hotel/info/2163007/2016-05-19/2016-05-22?NumRooms=1&NumAdult-Room1=2&tpid=1&eapid=0&langid=1033",
+            "distance": 1.2,
+            "hotelID": "2163008",
+            "hotelName": "Four Seasons Hotel Seattle",
+            "location": {
+                "latitude": 47.60772,
+                "longitude": -122.33936
+            },
+            "matchedRating": 4.2,
+            "thumbnailUrl": "https://images.trvl-media.com/hotels/3000000/2170000/2163100/2163007/2163007_15_t.jpg"
+        }
+    ]
+}

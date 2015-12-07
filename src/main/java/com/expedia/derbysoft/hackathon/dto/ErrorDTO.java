@@ -9,6 +9,14 @@ public class ErrorDTO implements Serializable {
 
     protected String message;
 
+    public ErrorDTO() {
+    }
+
+    public ErrorDTO(String code, String message) {
+        this.code = code;
+        this.message = message;
+    }
+
     public String getCode() {
         return code;
     }

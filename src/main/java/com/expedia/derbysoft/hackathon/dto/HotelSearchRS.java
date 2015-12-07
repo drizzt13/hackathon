@@ -1,11 +1,22 @@
 package com.expedia.derbysoft.hackathon.dto;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by zhupan on 12/8/15.
  */
 public class HotelSearchRS {
 
+    private List<HotelDTO> hotels = new ArrayList<HotelDTO>();
 
+    public List<HotelDTO> getHotels() {
+        return hotels;
+    }
+
+    public void setHotels(List<HotelDTO> hotels) {
+        this.hotels = hotels;
+    }
 
     private ErrorDTO error;
 

@@ -11,6 +11,7 @@ import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;
+import org.apache.http.impl.client.HttpClients;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
 
@@ -31,8 +32,8 @@ public abstract class HttpClientUtils {
 
     protected static Log logger = LogFactory.getLog(HttpClientUtils.class);
 
-    protected static String getResult(String url, Map<String, String[]> parameters, CloseableHttpClient httpclient) {
-        return getContent(httpclient, httpPost(url, parameters));
+    public static String getResult(String url, Map<String, String[]> parameters) {
+        return getContent(HttpClients.createDefault(), httpPost(url, parameters));
     }
 
     private static String getContent(CloseableHttpClient httpclient, HttpPost httpPost) {

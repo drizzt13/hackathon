@@ -12,6 +12,14 @@ public class GeoLocation {
 
     private BigDecimal longitude;
 
+    public GeoLocation() {
+    }
+
+    public GeoLocation(BigDecimal latitude, BigDecimal longitude) {
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+
     public BigDecimal getLongitude() {
         return longitude;
     }
