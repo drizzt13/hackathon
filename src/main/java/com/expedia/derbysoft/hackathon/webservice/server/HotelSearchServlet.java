@@ -1,5 +1,6 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
+import com.expedia.derbysoft.hackathon.utils.Exceptions;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRQ;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
 import com.expedia.derbysoft.hackathon.utils.JsonUtils;
@@ -38,7 +39,7 @@ public class HotelSearchServlet extends HttpServlet {
             }
 
         } catch (Exception e) {
-            logger.error(e);
+            logger.error(Exceptions.getStackTrace(e));
             Object response = ResponseHelper.response(e);
             httpResponse.getWriter().println(JsonUtils.marshal(response));
         }

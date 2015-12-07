@@ -12,7 +12,7 @@
 
     <servlet-mapping>
         <servlet-name>WebServiceServlet</servlet-name>
-        <url-pattern>/webservice/hotelsearch*</url-pattern>
+        <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
     <session-config>

@@ -1,9 +1,8 @@
 package com.expedia.derbysoft.hackathon.utils;
 
 import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
 import com.alibaba.fastjson.serializer.SerializerFeature;
-
-import java.util.Map;
 
 public class JsonUtils {
 
@@ -11,15 +10,8 @@ public class JsonUtils {
         return JSON.toJSONString(obj, SerializerFeature.QuoteFieldNames);
     }
 
-    public static Object unmarshal(String value) {
-       return JSON.parse(value);
+    public static <T> T unmarshal(String value, Class<T> clazz) {
+        return JSONObject.parseObject(value, clazz);
     }
 
-    private static String getValue(Map<String, String[]> parameterMap, String key) {
-        String[] values = parameterMap.get("dates");
-        if (values == null) {
-            return null;
-        }
-        return values[0];
-    }
 }

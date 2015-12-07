@@ -1,6 +1,7 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
 
+import com.expedia.derbysoft.hackathon.utils.Exceptions;
 import com.expedia.derbysoft.hackathon.webservice.dto.ErrorDTO;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
 
@@ -15,7 +16,7 @@ public abstract class ResponseHelper {
     private static ErrorDTO error(Throwable e) {
         ErrorDTO error = new ErrorDTO();
         error.setCode("System");
-        error.setMessage(e.getMessage());
+        error.setMessage(Exceptions.getStackTrace(e));
         return error;
     }
 

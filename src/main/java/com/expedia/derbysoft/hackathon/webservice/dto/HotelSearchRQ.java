@@ -60,7 +60,7 @@ public class HotelSearchRQ {
     }
 
     private static String getValue(Map<String, String[]> parameterMap, String key) {
-        String[] values = parameterMap.get("dates");
+        String[] values = parameterMap.get(key);
         if (values == null) {
             return null;
         }
