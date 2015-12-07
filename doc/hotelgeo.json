@@ -1,0 +1,2960 @@
+[
+  {
+    "id": "6065755",
+    "type": "point_of_interest",
+    "name": "Lotta's Fountain",
+    "source": {
+      "srcId": "6065755",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.403333,
+        37.787929
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155606",
+    "type": "point_of_interest",
+    "name": "Mechanics Monument, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155606",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.39928,
+        37.79124
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502551",
+    "type": "point_of_interest",
+    "name": "U.S. Mint",
+    "source": {
+      "srcId": "502551",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.427336,
+        37.77063
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065741",
+    "type": "point_of_interest",
+    "name": "Cartoon Art Museum",
+    "source": {
+      "srcId": "6065741",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.400779,
+        37.787068
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065743",
+    "type": "point_of_interest",
+    "name": "Chinese Culture Center, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6065743",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.404776,
+        37.794987
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065737",
+    "type": "point_of_interest",
+    "name": "St. Mary Square, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6065737",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.405312,
+        37.791939
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6068427",
+    "type": "point_of_interest",
+    "name": "TransAmerica Redwood Forest",
+    "source": {
+      "srcId": "6068427",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40234,
+        37.795339
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155076",
+    "type": "point_of_interest",
+    "name": "Saint John Coltrane Church, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155076",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43231,
+        37.78132
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502557",
+    "type": "point_of_interest",
+    "name": "Lombard Street",
+    "source": {
+      "srcId": "502557",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41874,
+        37.80217
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155462",
+    "type": "point_of_interest",
+    "name": "San Francisco African American Historical and Cultural Society, San Francisco, California, USA",
+    "source": {
+      "srcId": "6155462",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42918,
+        37.7781
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065735",
+    "type": "point_of_interest",
+    "name": "555 California Street",
+    "source": {
+      "srcId": "6065735",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.403992,
+        37.792524
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502555",
+    "type": "point_of_interest",
+    "name": "Mission Dolores, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502555",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.425364,
+        37.764256
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502553",
+    "type": "point_of_interest",
+    "name": "Moscone Convention Center, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502553",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40155,
+        37.78418
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155459",
+    "type": "point_of_interest",
+    "name": "Russian Center of San Francisco",
+    "source": {
+      "srcId": "6155459",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.44081,
+        37.78513
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065731",
+    "type": "point_of_interest",
+    "name": "Fillmore Auditorium",
+    "source": {
+      "srcId": "6065731",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.432933,
+        37.784147
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177663",
+    "type": "point_of_interest",
+    "name": "Sundance Kabuki Cinemas",
+    "source": {
+      "srcId": "6177663",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.432682,
+        37.785191
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502562",
+    "type": "point_of_interest",
+    "name": "Cable Car Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502562",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.411465,
+        37.794673
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177656",
+    "type": "point_of_interest",
+    "name": "Kaiser Permanente Medical Center",
+    "source": {
+      "srcId": "6177656",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.442217,
+        37.782066
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502560",
+    "type": "point_of_interest",
+    "name": "Twin Peaks, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502560",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.448764,
+        37.750833
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502569",
+    "type": "point_of_interest",
+    "name": "TransAmerica Pyramid, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502569",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.403274,
+        37.795373
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155372",
+    "type": "point_of_interest",
+    "name": "Marsh Theater, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155372",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42101,
+        37.7558
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063213",
+    "type": "point_of_interest",
+    "name": "Randall Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6063213",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.438566,
+        37.764231
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177642",
+    "type": "point_of_interest",
+    "name": "Yerba Buena Center for the Arts",
+    "source": {
+      "srcId": "6177642",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.400873,
+        37.784691
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063201",
+    "type": "point_of_interest",
+    "name": "San Francisco Museum of Modern Art",
+    "source": {
+      "srcId": "6063201",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.401165,
+        37.785639
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155488",
+    "type": "point_of_interest",
+    "name": "Society of California Pioneers, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155488",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.401,
+        37.78189
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502586",
+    "type": "point_of_interest",
+    "name": "University of San Francisco",
+    "source": {
+      "srcId": "502586",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.449332,
+        37.778517
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151906",
+    "type": "point_of_interest",
+    "name": "Academy of Art University, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6151906",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.400828,
+        37.787721
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227871",
+    "type": "point_of_interest",
+    "name": "Full House House",
+    "source": {
+      "srcId": "6227871",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.441808,
+        37.786351
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507468",
+    "type": "point_of_interest",
+    "name": "Washington Square",
+    "source": {
+      "srcId": "507468",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.409657,
+        37.801197
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507466",
+    "type": "point_of_interest",
+    "name": "Buena Vista Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "507466",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.441533,
+        37.76778
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507476",
+    "type": "point_of_interest",
+    "name": "Alamo Square",
+    "source": {
+      "srcId": "507476",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.433357,
+        37.776498
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6176778",
+    "type": "point_of_interest",
+    "name": "Fishermans Wharf Cable Car Turnaround",
+    "source": {
+      "srcId": "6176778",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.421199,
+        37.807111
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155657",
+    "type": "point_of_interest",
+    "name": "Yerba Buena Ice Skating Center",
+    "source": {
+      "srcId": "6155657",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40042,
+        37.78261
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155400",
+    "type": "point_of_interest",
+    "name": "Painted Ladies, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155400",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43296,
+        37.77623
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507473",
+    "type": "point_of_interest",
+    "name": "Lafayette Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "507473",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4276,
+        37.79161
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155397",
+    "type": "point_of_interest",
+    "name": "San Francisco Zen Center",
+    "source": {
+      "srcId": "6155397",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42596,
+        37.77363
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155068",
+    "type": "point_of_interest",
+    "name": "Castro Theatre",
+    "source": {
+      "srcId": "6155068",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43509,
+        37.76201
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6199613",
+    "type": "point_of_interest",
+    "name": "Crocker Galleria, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6199613",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40284,
+        37.789056
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155064",
+    "type": "point_of_interest",
+    "name": "California Historical Society",
+    "source": {
+      "srcId": "6155064",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40153,
+        37.78664
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155192",
+    "type": "point_of_interest",
+    "name": "GLBT History Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155192",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43563,
+        37.76085
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155572",
+    "type": "point_of_interest",
+    "name": "Telephone Pioneers Communication Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155572",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.39983,
+        37.78688
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155319",
+    "type": "point_of_interest",
+    "name": "Museum of the African Diaspora",
+    "source": {
+      "srcId": "6155319",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40158,
+        37.78658
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155695",
+    "type": "point_of_interest",
+    "name": "Balmy Alley",
+    "source": {
+      "srcId": "6155695",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41239,
+        37.75186
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151470",
+    "type": "point_of_interest",
+    "name": "Ripley's Believe It Or Not Museum",
+    "source": {
+      "srcId": "6151470",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41548,
+        37.8083
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069417",
+    "type": "point_of_interest",
+    "name": "Harvey Milk Plaza",
+    "source": {
+      "srcId": "6069417",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.429109,
+        37.767594
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155562",
+    "type": "point_of_interest",
+    "name": "Sutro Tower",
+    "source": {
+      "srcId": "6155562",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45265,
+        37.75534
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069415",
+    "type": "point_of_interest",
+    "name": "Yerba Buena Center for the Performing Arts",
+    "source": {
+      "srcId": "6069415",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.401616,
+        37.78274
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069409",
+    "type": "point_of_interest",
+    "name": "Old St. Mary's Cathedral, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6069409",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.405489,
+        37.792367
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155299",
+    "type": "point_of_interest",
+    "name": "Konko Church of San Francisco, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155299",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42904,
+        37.78759
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069411",
+    "type": "point_of_interest",
+    "name": "San Francisco Art Institute, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6069411",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.417114,
+        37.803291
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6192733",
+    "type": "point_of_interest",
+    "name": "The Cannery at Del Monte Square, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6192733",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.419597,
+        37.806838
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155486",
+    "type": "point_of_interest",
+    "name": "Balclutha, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155486",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41502,
+        37.80878
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "508803",
+    "type": "point_of_interest",
+    "name": "Golden Gate Bridge, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "508803",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.477388,
+        37.808835
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155610",
+    "type": "point_of_interest",
+    "name": "National Shrine of Saint Francis of Assisi",
+    "source": {
+      "srcId": "6155610",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40765,
+        37.79872
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065749",
+    "type": "point_of_interest",
+    "name": "Musee Mecanique",
+    "source": {
+      "srcId": "6065749",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41779,
+        37.810106
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155596",
+    "type": "point_of_interest",
+    "name": "The Beat Museum",
+    "source": {
+      "srcId": "6155596",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40611,
+        37.79796
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155214",
+    "type": "point_of_interest",
+    "name": "Kong Chow Temple, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155214",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40785,
+        37.79381
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155208",
+    "type": "point_of_interest",
+    "name": "Jefferson Airplane House",
+    "source": {
+      "srcId": "6155208",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45651,
+        37.77452
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227786",
+    "type": "point_of_interest",
+    "name": "Ride the Ducks San Francisco",
+    "source": {
+      "srcId": "6227786",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.415773,
+        37.808098
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6209483",
+    "type": "point_of_interest",
+    "name": "Red and White Fleet at Pier 43 and a Half",
+    "source": {
+      "srcId": "6209483",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.415066,
+        37.809171
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502558",
+    "type": "point_of_interest",
+    "name": "Presidio of San Francisco",
+    "source": {
+      "srcId": "502558",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46724,
+        37.79965
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155204",
+    "type": "point_of_interest",
+    "name": "Holy Virgin Cathedral",
+    "source": {
+      "srcId": "6155204",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.48619,
+        37.78005
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155206",
+    "type": "point_of_interest",
+    "name": "Hyde Street Pier",
+    "source": {
+      "srcId": "6155206",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42074,
+        37.80767
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065729",
+    "type": "point_of_interest",
+    "name": "Baker Beach",
+    "source": {
+      "srcId": "6065729",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.48271,
+        37.795475
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155072",
+    "type": "point_of_interest",
+    "name": "China Beach",
+    "source": {
+      "srcId": "6155072",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.49074,
+        37.78715
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155712",
+    "type": "point_of_interest",
+    "name": "Walter S. Johnson Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155712",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.44693,
+        37.80329
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155074",
+    "type": "point_of_interest",
+    "name": "Chinese Historical Society of America, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155074",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40891,
+        37.79393
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155647",
+    "type": "point_of_interest",
+    "name": "Wells Fargo History Museum",
+    "source": {
+      "srcId": "6155647",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4028,
+        37.79312
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502564",
+    "type": "point_of_interest",
+    "name": "Palace of Fine Arts, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "502564",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.450062,
+        37.803706
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155640",
+    "type": "point_of_interest",
+    "name": "Walt Disney Family Museum",
+    "source": {
+      "srcId": "6155640",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45831,
+        37.80117
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155637",
+    "type": "point_of_interest",
+    "name": "USS Pampanito, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155637",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41502,
+        37.80878
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155380",
+    "type": "point_of_interest",
+    "name": "Pacific Heritage Museum of San Francisco",
+    "source": {
+      "srcId": "6155380",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40332,
+        37.79418
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155761",
+    "type": "point_of_interest",
+    "name": "Winery Collective",
+    "source": {
+      "srcId": "6155761",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42035,
+        37.80765
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151539",
+    "type": "point_of_interest",
+    "name": "San Francisco Botanical Garden, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6151539",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46643,
+        37.76593
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063219",
+    "type": "point_of_interest",
+    "name": "California Palace of the Legion of Honor",
+    "source": {
+      "srcId": "6063219",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.500123,
+        37.784987
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155629",
+    "type": "point_of_interest",
+    "name": "Tin How Temple",
+    "source": {
+      "srcId": "6155629",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40674,
+        37.79382
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151535",
+    "type": "point_of_interest",
+    "name": "California Academy of Sciences",
+    "source": {
+      "srcId": "6151535",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46678,
+        37.77027
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063211",
+    "type": "point_of_interest",
+    "name": "Natural World Museum",
+    "source": {
+      "srcId": "6063211",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.461081,
+        37.798709
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155492",
+    "type": "point_of_interest",
+    "name": "Saints Peter and Paul Church",
+    "source": {
+      "srcId": "6155492",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41013,
+        37.80129
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063205",
+    "type": "point_of_interest",
+    "name": "Japanese Tea Garden, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6063205",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46941,
+        37.77005
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155622",
+    "type": "point_of_interest",
+    "name": "Wax Museum at Fisherman's Wharf, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155622",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41479,
+        37.80834
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151904",
+    "type": "point_of_interest",
+    "name": "University of California San Francisco",
+    "source": {
+      "srcId": "6151904",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45855,
+        37.76329
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155490",
+    "type": "point_of_interest",
+    "name": "SS Jeremiah O'Brien",
+    "source": {
+      "srcId": "6155490",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41502,
+        37.80878
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063203",
+    "type": "point_of_interest",
+    "name": "De Young Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6063203",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.468097,
+        37.771325
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155154",
+    "type": "point_of_interest",
+    "name": "Crissy Field",
+    "source": {
+      "srcId": "6155154",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45042,
+        37.80609
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507464",
+    "type": "point_of_interest",
+    "name": "Golden Gate Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "507464",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.47735,
+        37.76549
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155150",
+    "type": "point_of_interest",
+    "name": "Club Fugazi, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155150",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41022,
+        37.79944
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507483",
+    "type": "point_of_interest",
+    "name": "Lincoln Park",
+    "source": {
+      "srcId": "507483",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.50028,
+        37.78567
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155138",
+    "type": "point_of_interest",
+    "name": "City Lights Booksellers",
+    "source": {
+      "srcId": "6155138",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4064,
+        37.79771
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155325",
+    "type": "point_of_interest",
+    "name": "Norras Temple",
+    "source": {
+      "srcId": "6155325",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40686,
+        37.79441
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155327",
+    "type": "point_of_interest",
+    "name": "North Beach Museum",
+    "source": {
+      "srcId": "6155327",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40892,
+        37.79913
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155198",
+    "type": "point_of_interest",
+    "name": "Grateful Dead House, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155198",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.44671,
+        37.76887
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155707",
+    "type": "point_of_interest",
+    "name": "San Francisco National Cemetary",
+    "source": {
+      "srcId": "6155707",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46166,
+        37.80111
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6176694",
+    "type": "point_of_interest",
+    "name": "Presidio Theater, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6176694",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.44188,
+        37.800097
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155062",
+    "type": "point_of_interest",
+    "name": "Buddha's Universal Church",
+    "source": {
+      "srcId": "6155062",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40531,
+        37.79535
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155184",
+    "type": "point_of_interest",
+    "name": "Ferryboat Eureka, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155184",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42139,
+        37.80921
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155565",
+    "type": "point_of_interest",
+    "name": "Tattoo Art Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155565",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41324,
+        37.80239
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069421",
+    "type": "point_of_interest",
+    "name": "Fort Point National Historical Site, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6069421",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.475114,
+        37.807733
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069423",
+    "type": "point_of_interest",
+    "name": "Gould Theater, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6069423",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.500021,
+        37.785046
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069419",
+    "type": "point_of_interest",
+    "name": "Conservatory of Flowers",
+    "source": {
+      "srcId": "6069419",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.460222,
+        37.772335
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155484",
+    "type": "point_of_interest",
+    "name": "SF Playhouse, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155484",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40915,
+        37.78918
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065751",
+    "type": "point_of_interest",
+    "name": "Cathedral of Saint Mary of the Assumption",
+    "source": {
+      "srcId": "6065751",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.425547,
+        37.784783
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155212",
+    "type": "point_of_interest",
+    "name": "Kezar Stadium",
+    "source": {
+      "srcId": "6155212",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45424,
+        37.76695
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502549",
+    "type": "point_of_interest",
+    "name": "San Francisco City Hall",
+    "source": {
+      "srcId": "502549",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.419887,
+        37.779225
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155598",
+    "type": "point_of_interest",
+    "name": "Flood Building",
+    "source": {
+      "srcId": "6155598",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40723,
+        37.78464
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065733",
+    "type": "point_of_interest",
+    "name": "American Conservatory Theater",
+    "source": {
+      "srcId": "6065733",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.410226,
+        37.787085
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155591",
+    "type": "point_of_interest",
+    "name": "Alcove Theater",
+    "source": {
+      "srcId": "6155591",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4099,
+        37.78742
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151549",
+    "type": "point_of_interest",
+    "name": "Westfield Metreon",
+    "source": {
+      "srcId": "6151549",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40423,
+        37.78456
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6132601",
+    "type": "point_of_interest",
+    "name": "Civic Center Plaza, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6132601",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41841,
+        37.77939
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155642",
+    "type": "point_of_interest",
+    "name": "Warfield Theater",
+    "source": {
+      "srcId": "6155642",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41004,
+        37.78244
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177654",
+    "type": "point_of_interest",
+    "name": "California State Building",
+    "source": {
+      "srcId": "6177654",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.420401,
+        37.780095
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6132597",
+    "type": "point_of_interest",
+    "name": "San Francisco Federal Building",
+    "source": {
+      "srcId": "6132597",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41109,
+        37.77936
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177652",
+    "type": "point_of_interest",
+    "name": "Orpheum Theater, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6177652",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.414516,
+        37.77899
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "502573",
+    "type": "point_of_interest",
+    "name": "War Memorial Opera House",
+    "source": {
+      "srcId": "502573",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.420236,
+        37.778652
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155633",
+    "type": "point_of_interest",
+    "name": "Un-Scripted Theater Company",
+    "source": {
+      "srcId": "6155633",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40919,
+        37.78917
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155376",
+    "type": "point_of_interest",
+    "name": "San Francisco Mint, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155376",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40683,
+        37.78302
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6176750",
+    "type": "point_of_interest",
+    "name": "Powell and Market Cable Car Turnaround",
+    "source": {
+      "srcId": "6176750",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.407684,
+        37.784803
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6132591",
+    "type": "point_of_interest",
+    "name": "Westfield San Francisco Center Shopping Mall",
+    "source": {
+      "srcId": "6132591",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4077,
+        37.78431
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155368",
+    "type": "point_of_interest",
+    "name": "Marines Memorial Theater",
+    "source": {
+      "srcId": "6155368",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41058,
+        37.78897
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155370",
+    "type": "point_of_interest",
+    "name": "Marrakech Magic Theater, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155370",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41182,
+        37.78597
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063207",
+    "type": "point_of_interest",
+    "name": "Asian Art Museum of San Francisco, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6063207",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.418627,
+        37.780781
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155544",
+    "type": "point_of_interest",
+    "name": "San Francisco Public Library, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155544",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41666,
+        37.77898
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155412",
+    "type": "point_of_interest",
+    "name": "Presidio Golf Course, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155412",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.459641,
+        37.79062
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155156",
+    "type": "point_of_interest",
+    "name": "Defenestration Building",
+    "source": {
+      "srcId": "6155156",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40718,
+        37.77975
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155536",
+    "type": "point_of_interest",
+    "name": "Intersection for the Arts",
+    "source": {
+      "srcId": "6155536",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40658,
+        37.78265
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6177680",
+    "type": "point_of_interest",
+    "name": "United Nations Plaza, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6177680",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.415094,
+        37.7798
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6203150",
+    "type": "point_of_interest",
+    "name": "77 Geary Galleries, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6203150",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40473,
+        37.78785
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155406",
+    "type": "point_of_interest",
+    "name": "Pioneer's Monument, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155406",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41592,
+        37.77971
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155530",
+    "type": "point_of_interest",
+    "name": "International Art Museum of America",
+    "source": {
+      "srcId": "6155530",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41091,
+        37.78174
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "507472",
+    "type": "point_of_interest",
+    "name": "Union Square, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "507472",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.407509,
+        37.787872
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155654",
+    "type": "point_of_interest",
+    "name": "Yerba Buena Gardens",
+    "source": {
+      "srcId": "6155654",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.402985,
+        37.785406
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155651",
+    "type": "point_of_interest",
+    "name": "Xanadu Gallery",
+    "source": {
+      "srcId": "6155651",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40585,
+        37.78814
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155709",
+    "type": "point_of_interest",
+    "name": "San Francisco Visitor's Center",
+    "source": {
+      "srcId": "6155709",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.408,
+        37.78405
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155196",
+    "type": "point_of_interest",
+    "name": "Golden Gate Theatre",
+    "source": {
+      "srcId": "6155196",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41059,
+        37.78245
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155070",
+    "type": "point_of_interest",
+    "name": "Children's Creativity Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155070",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40232,
+        37.78304
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155321",
+    "type": "point_of_interest",
+    "name": "Kimball Natural History Museum",
+    "source": {
+      "srcId": "6155321",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4668,
+        37.77027
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155704",
+    "type": "point_of_interest",
+    "name": "National AIDS Memorial Grove",
+    "source": {
+      "srcId": "6155704",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46034,
+        37.7697
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155323",
+    "type": "point_of_interest",
+    "name": "Neptune Society Columbarium, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155323",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45705,
+        37.78036
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155194",
+    "type": "point_of_interest",
+    "name": "Glide Memorial United Methodist Church",
+    "source": {
+      "srcId": "6155194",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41146,
+        37.78504
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227896",
+    "type": "point_of_interest",
+    "name": "Circus Center",
+    "source": {
+      "srcId": "6227896",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.457022,
+        37.765861
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155317",
+    "type": "point_of_interest",
+    "name": "Museum of Craft and Folk Art, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155317",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40405,
+        37.78555
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155574",
+    "type": "point_of_interest",
+    "name": "Congregation Emanu-El, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155574",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.45965,
+        37.78691
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155057",
+    "type": "point_of_interest",
+    "name": "Bill Graham Civic Auditorium, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155057",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41752,
+        37.77858
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155313",
+    "type": "point_of_interest",
+    "name": "Morrison Planetarium, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155313",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46672,
+        37.77031
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155052",
+    "type": "point_of_interest",
+    "name": "Audium",
+    "source": {
+      "srcId": "6155052",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42394,
+        37.78824
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155305",
+    "type": "point_of_interest",
+    "name": "Lorraine Hansberry Theatre",
+    "source": {
+      "srcId": "6155305",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.41349,
+        37.78838
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6069413",
+    "type": "point_of_interest",
+    "name": "Grace Cathedral",
+    "source": {
+      "srcId": "6069413",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.412871,
+        37.791897
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155303",
+    "type": "point_of_interest",
+    "name": "Lincoln Park Golf Club, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155303",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.49463,
+        37.78172
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155559",
+    "type": "point_of_interest",
+    "name": "Steinhart Aquarium",
+    "source": {
+      "srcId": "6155559",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.46678,
+        37.77029
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155169",
+    "type": "point_of_interest",
+    "name": "San Francisco Magic Parlor",
+    "source": {
+      "srcId": "6155169",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40847,
+        37.78863
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155612",
+    "type": "point_of_interest",
+    "name": "Wave Organ",
+    "source": {
+      "srcId": "6155612",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.44026,
+        37.80856
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151545",
+    "type": "point_of_interest",
+    "name": "Ghirardelli Square",
+    "source": {
+      "srcId": "6151545",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42204,
+        37.80561
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227863",
+    "type": "point_of_interest",
+    "name": "Mission Dolores Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6227863",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.426024,
+        37.759821
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155188",
+    "type": "point_of_interest",
+    "name": "Fort Mason",
+    "source": {
+      "srcId": "6155188",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42681,
+        37.80427
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155409",
+    "type": "point_of_interest",
+    "name": "Presidio Army Museum",
+    "source": {
+      "srcId": "6155409",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43131,
+        37.80654
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6065745",
+    "type": "point_of_interest",
+    "name": "Mexican Museum, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6065745",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.432794,
+        37.80004
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6063217",
+    "type": "point_of_interest",
+    "name": "Louise Davies Symphony Hall, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6063217",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4198,
+        37.77788
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155539",
+    "type": "point_of_interest",
+    "name": "San Francisco Maritime National Historical Park",
+    "source": {
+      "srcId": "6155539",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42155,
+        37.80659
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155315",
+    "type": "point_of_interest",
+    "name": "Museo Italo Americano, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155315",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43067,
+        37.80652
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155055",
+    "type": "point_of_interest",
+    "name": "Bay Area Theatresports, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155055",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43159,
+        37.80633
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155374",
+    "type": "point_of_interest",
+    "name": "Feusier Octagon House",
+    "source": {
+      "srcId": "6155374",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42721,
+        37.79782
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155465",
+    "type": "point_of_interest",
+    "name": "San Francisco Maritime Museum",
+    "source": {
+      "srcId": "6155465",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42385,
+        37.80629
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155048",
+    "type": "point_of_interest",
+    "name": "Anchor Brewing Company",
+    "source": {
+      "srcId": "6155048",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.401,
+        37.76359
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155307",
+    "type": "point_of_interest",
+    "name": "Magic Theatre",
+    "source": {
+      "srcId": "6155307",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43061,
+        37.80652
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6132613",
+    "type": "point_of_interest",
+    "name": "Concourse Exhibit Center",
+    "source": {
+      "srcId": "6132613",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40509,
+        37.77105
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227847",
+    "type": "point_of_interest",
+    "name": "St. Patrick Catholic Church, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6227847",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.403311,
+        37.785305
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6265863",
+    "type": "point_of_interest",
+    "name": "SFJAZZ Center",
+    "source": {
+      "srcId": "6265863",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.421234,
+        37.776159
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227910",
+    "type": "point_of_interest",
+    "name": "SHN Curran Theatre, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6227910",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.410585,
+        37.787077
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155364",
+    "type": "point_of_interest",
+    "name": "Marina Green",
+    "source": {
+      "srcId": "6155364",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.43914,
+        37.80695
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6227876",
+    "type": "point_of_interest",
+    "name": "Mrs. Doubtfire House",
+    "source": {
+      "srcId": "6227876",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.436576,
+        37.79411
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6151552",
+    "type": "point_of_interest",
+    "name": "New Conservatory Theater Center",
+    "source": {
+      "srcId": "6151552",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4193,
+        37.77544
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6176707",
+    "type": "point_of_interest",
+    "name": "Aquatic Park",
+    "source": {
+      "srcId": "6176707",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.425931,
+        37.806919
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155200",
+    "type": "point_of_interest",
+    "name": "Haas-Lilienthal House, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155200",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.4246,
+        37.79332
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155042",
+    "type": "point_of_interest",
+    "name": "Allyne Park, San Francisco, California, United States of America",
+    "source": {
+      "srcId": "6155042",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.42715,
+        37.79751
+      ]
+    },
+    "status": "active"
+  }
+]
