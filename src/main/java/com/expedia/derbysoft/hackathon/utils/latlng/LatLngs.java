@@ -16,7 +16,7 @@ public abstract class LatLngs {
         return distance(lat1.doubleValue(), lng1.doubleValue(), lat2.doubleValue(), lng2.doubleValue());
     }
 
-    // return km
+    // return m
     public static double distance(double lat1, double lng1, double lat2, double lng2) {
         return new LatLng(lat1, lng1).distanceTo(new LatLng(lat2, lng2));
     }

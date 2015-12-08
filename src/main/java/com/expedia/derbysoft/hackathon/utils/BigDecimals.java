@@ -62,16 +62,4 @@ public abstract class BigDecimals {
         return roundUp(new BigDecimal(value), i);
     }
 
-    public static BigDecimal format(BigDecimal bigDecimal) {
-        return (bigDecimal != null) ? new BigDecimal(removeEnd0(bigDecimal.toString())) : null;
-    }
-
-    private static String removeEnd0(String value) {
-        if (!value.endsWith("0")) {
-            return value;
-        }
-        return removeEnd0(value.substring(0, value.length() - 1));
-    }
-
-
 }

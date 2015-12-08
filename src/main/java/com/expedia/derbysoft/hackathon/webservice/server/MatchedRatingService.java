@@ -1,5 +1,6 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
+import com.expedia.derbysoft.hackathon.utils.BigDecimals;
 import com.expedia.derbysoft.hackathon.utils.latlng.LatLngs;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelInfo;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelSearchSummary;
@@ -39,7 +40,7 @@ public class MatchedRatingService {
         GeoLocation hotelLocation = hotelInfo.getLocation().getGeoLocation();
         hotelDTO.setLocation(hotelLocation);
         double distance = LatLngs.distance(location.getLatitude(), location.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
-        hotelDTO.setDistance(BigDecimal.valueOf(distance));
+        hotelDTO.setDistance(BigDecimals.roundUp(distance / 1000));
         hotelDTO.setMatchedRating(MatchedRatingCalculator.calculate(hotelDTO.getDistance(), new BigDecimal(hotelInfo.getGuestRating())));
         return hotelDTO;
     }
