@@ -2,8 +2,11 @@ package com.expedia.derbysoft.hackathon.webservice.server;
 
 import com.expedia.derbysoft.hackathon.utils.BigDecimals;
 import com.expedia.derbysoft.hackathon.utils.latlng.LatLngs;
+import com.expedia.derbysoft.hackathon.webservice.client.expedia.ExpediaAPIClient;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelInfo;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelSearchSummary;
+import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.ReviewDetails;
+import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.ReviewSummary;
 import com.expedia.derbysoft.hackathon.webservice.dto.GeoLocation;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelDTO;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRQ;
@@ -18,6 +21,8 @@ import java.util.List;
  * Created by zhupan on 12/7/15.
  */
 public class MatchedRatingService {
+
+    private ExpediaAPIClient expediaAPIClient = new ExpediaAPIClient();
 
     public HotelSearchRS translate(HotelSearchSummary hotelSearchSummary, HotelSearchRQ request) {
         HotelSearchRS rs = new HotelSearchRS();
@@ -37,7 +42,7 @@ public class MatchedRatingService {
         return rs;
     }
 
-    private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation location) {
+    private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation searchLocation) {
         if (hotelInfo.getPrice() == null) {
             return null;
         }
@@ -48,16 +53,36 @@ public class MatchedRatingService {
         hotelDTO.setHotelName(hotelInfo.getName());
         hotelDTO.setThumbnailUrl(hotelInfo.getThumbnailUrl());
         hotelDTO.setGuestRating(hotelInfo.getGuestRating());
-        GeoLocation hotelLocation = hotelInfo.getLocation().getGeoLocation();
-        hotelDTO.setLocation(hotelLocation);
-        double distance = LatLngs.distance(location.getLatitude(), location.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
-        hotelDTO.setDistance(BigDecimals.roundUp(distance / 1000));
+        hotelDTO.setLocation(hotelInfo.getLocation().getGeoLocation());
+        hotelDTO.setDistance(getDistance(searchLocation, hotelInfo.getLocation().getGeoLocation()));
+        hotelDTO.setMatchedRating(MatchedRatingCalculator.calculate(hotelDTO.getDistance(), getGuestRating(hotelInfo)));
+        return hotelDTO;
+    }
+
+    private BigDecimal getDistance(GeoLocation searchLocation, GeoLocation hotelLocation) {
+        double distance = LatLngs.distance(searchLocation.getLatitude(), searchLocation.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
+        return BigDecimals.roundUp(distance / 1000);
+    }
+
+    private BigDecimal getGuestRating(HotelInfo hotelInfo) {
         BigDecimal guestRating = BigDecimal.ZERO;
         if (hotelInfo.getGuestRating() != null) {
             guestRating = hotelInfo.getGuestRating();
         }
-        hotelDTO.setMatchedRating(MatchedRatingCalculator.calculate(hotelDTO.getDistance(), guestRating));
-        return hotelDTO;
+        if (guestRating.equals(BigDecimal.ZERO)) {
+            ReviewDetails reviewDetails = expediaAPIClient.findReview(hotelInfo.getHotelID());
+            List<ReviewSummary> reviewSummary = reviewDetails.getReviewSummaryCollection().getReviewSummary();
+            if (reviewSummary != null && reviewSummary.isEmpty()) {
+                BigDecimal avgOverallRating = reviewSummary.get(0).getAvgOverallRating();
+                if (avgOverallRating != null) {
+                    guestRating = avgOverallRating;
+                }
+            }
+        }
+        return guestRating;
     }
 
+    public void setExpediaAPIClient(ExpediaAPIClient expediaAPIClient) {
+        this.expediaAPIClient = expediaAPIClient;
+    }
 }

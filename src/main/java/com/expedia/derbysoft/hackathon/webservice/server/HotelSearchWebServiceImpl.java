@@ -1,7 +1,7 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
 import com.expedia.derbysoft.hackathon.webservice.HotelSearchWebService;
-import com.expedia.derbysoft.hackathon.webservice.client.expedia.HotelSearchClient;
+import com.expedia.derbysoft.hackathon.webservice.client.expedia.ExpediaAPIClient;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelSearchSummary;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRQ;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
@@ -11,18 +11,18 @@ import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
  */
 public class HotelSearchWebServiceImpl implements HotelSearchWebService {
 
-    private HotelSearchClient hotelSearchClient = new HotelSearchClient();
+    private ExpediaAPIClient expediaAPIClient = new ExpediaAPIClient();
 
     private MatchedRatingService matchedRatingService = new MatchedRatingService();
 
     @Override
     public HotelSearchRS search(HotelSearchRQ request) {
-        HotelSearchSummary hotelSearchSummary = hotelSearchClient.search(request);
+        HotelSearchSummary hotelSearchSummary = expediaAPIClient.search(request);
         return matchedRatingService.translate(hotelSearchSummary,request);
     }
 
-    public void setHotelSearchClient(HotelSearchClient hotelSearchClient) {
-        this.hotelSearchClient = hotelSearchClient;
+    public void setExpediaAPIClient(ExpediaAPIClient expediaAPIClient) {
+        this.expediaAPIClient = expediaAPIClient;
     }
 
     public void setMatchedRatingService(MatchedRatingService matchedRatingService) {

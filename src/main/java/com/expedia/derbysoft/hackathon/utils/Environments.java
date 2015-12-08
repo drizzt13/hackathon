@@ -11,7 +11,7 @@ public abstract class Environments {
     }
 
     public static String getReviewsURL(String hotelId) {
-        return HOTEL_SEARCH_URL + "&hotelId=" + hotelId;
+        return REVIEWS_URL + "&items=2000&hotelId=" + hotelId;
     }
 
 }
