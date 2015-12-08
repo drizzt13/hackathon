@@ -43,15 +43,15 @@ public class MatchedRatingCalculator {
             return guestRating;
         }
         if (distance.doubleValue() < 5) {
-            return guestRating.subtract(BigDecimal.valueOf(0.2));
+            return guestRating.subtract(BigDecimal.valueOf(-0.2));
         }
         if (distance.doubleValue() < 10) {
-            return guestRating.subtract(BigDecimal.valueOf(0.5));
+            return guestRating.subtract(BigDecimal.valueOf(-0.5));
         }
         if (distance.doubleValue() < 20) {
-            return guestRating.subtract(BigDecimal.valueOf(1));
+            return guestRating.subtract(BigDecimal.valueOf(-1));
         }
-        return guestRating.subtract(BigDecimal.valueOf(2));
+        return guestRating.subtract(BigDecimal.valueOf(-2));
     }
 
 }
