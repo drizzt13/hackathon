@@ -1,6 +1,7 @@
 package com.expedia.derbysoft.hackathon.webservice.server;
 
 import com.expedia.derbysoft.hackathon.utils.BigDecimals;
+import com.expedia.derbysoft.hackathon.utils.Environments;
 import com.expedia.derbysoft.hackathon.utils.latlng.LatLngs;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.ExpediaAPIClient;
 import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.HotelInfo;
@@ -69,7 +70,7 @@ public class MatchedRatingService {
         if (hotelInfo.getGuestRating() != null) {
             guestRating = hotelInfo.getGuestRating();
         }
-        if (guestRating.equals(BigDecimal.ZERO)) {
+        if (Environments.reviewsRatingRequired() && guestRating.equals(BigDecimal.ZERO)) {
             ReviewDetails reviewDetails = expediaAPIClient.findReview(hotelInfo.getHotelID());
             List<ReviewSummary> reviewSummary = reviewDetails.getReviewSummaryCollection().getReviewSummary();
             if (reviewSummary != null && reviewSummary.isEmpty()) {
