@@ -39,8 +39,11 @@ public class MatchedRatingCalculator {
         if (distance.doubleValue() < 3) {
             return guestRating.add(BigDecimal.valueOf(0.1));
         }
-        if (distance.doubleValue() < 5) {
+        if (distance.doubleValue() < 4) {
             return guestRating;
+        }
+        if (distance.doubleValue() < 5) {
+            return guestRating.subtract(BigDecimal.valueOf(0.2));
         }
         if (distance.doubleValue() < 10) {
             return guestRating.subtract(BigDecimal.valueOf(0.5));

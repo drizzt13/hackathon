@@ -10,6 +10,8 @@ import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRQ;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
 
 import java.math.BigDecimal;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -24,6 +26,7 @@ public class MatchedRatingService {
             return rs;
         }
         List<HotelDTO> hotels = hotelSearchSummary.getHotelInfoList().getHotelInfo().stream().map(hotelInfo -> translateHotelDTO(hotelInfo, request.getGeoLocation())).collect(Collectors.toList());
+        Collections.sort(hotels, (h1, h2) -> h2.getMatchedRating().compareTo(h1.getMatchedRating()));
         rs.setHotels(hotels);
         return rs;
     }
