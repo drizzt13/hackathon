@@ -10,10 +10,9 @@ import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRQ;
 import com.expedia.derbysoft.hackathon.webservice.dto.HotelSearchRS;
 
 import java.math.BigDecimal;
+import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * Created by zhupan on 12/7/15.
@@ -25,17 +24,25 @@ public class MatchedRatingService {
         if (hotelSearchSummary == null || hotelSearchSummary.getHotelInfoList() == null || hotelSearchSummary.getHotelInfoList().getHotelInfo() == null) {
             return rs;
         }
-        List<HotelDTO> hotels = hotelSearchSummary.getHotelInfoList().getHotelInfo().stream().map(hotelInfo -> translateHotelDTO(hotelInfo, request.getGeoLocation())).collect(Collectors.toList());
+        List<HotelDTO> hotels = new ArrayList<>();
+        for (HotelInfo hotelInfo : hotelSearchSummary.getHotelInfoList().getHotelInfo()) {
+            HotelDTO hotelDTO = translateHotelDTO(hotelInfo, request.getGeoLocation());
+            if (hotelDTO == null) {
+                continue;
+            }
+            hotels.add(hotelDTO);
+        }
         Collections.sort(hotels, (h1, h2) -> h2.getMatchedRating().compareTo(h1.getMatchedRating()));
         rs.setHotels(hotels);
         return rs;
     }
 
     private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation location) {
-        HotelDTO hotelDTO = new HotelDTO();
-        if (hotelInfo.getPrice() != null) {
-            hotelDTO.setBaseRate(hotelInfo.getPrice().getBaseRate().getValue());
+        if (hotelInfo.getPrice() == null) {
+            return null;
         }
+        HotelDTO hotelDTO = new HotelDTO();
+        hotelDTO.setBaseRate(hotelInfo.getPrice().getBaseRate().getValue());
         hotelDTO.setDetailsUrl(hotelInfo.getDetailsUrl());
         hotelDTO.setHotelID(hotelInfo.getHotelID());
         hotelDTO.setHotelName(hotelInfo.getName());
