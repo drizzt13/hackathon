@@ -6,6 +6,7 @@ package com.expedia.derbysoft.hackathon.webservice.client.expedia.dto;
 public class StayDates {
 
     private String checkInDate;
+
     private String checkOutDate;
 
     public String getCheckInDate() {
