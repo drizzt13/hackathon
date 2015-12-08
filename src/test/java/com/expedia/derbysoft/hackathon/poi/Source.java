@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.hotel;
+package com.expedia.derbysoft.hackathon.poi;
 
 public class Source {
 

@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.hotel;
+package com.expedia.derbysoft.hackathon.poi;
 
 import com.alibaba.fastjson.JSONObject;
 import com.expedia.derbysoft.hackathon.utils.JsonUtils;

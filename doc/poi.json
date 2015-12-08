@@ -527,23 +527,6 @@
     "status": "active"
   },
   {
-    "id": "6176778",
-    "type": "point_of_interest",
-    "name": "Fishermans Wharf Cable Car Turnaround",
-    "source": {
-      "srcId": "6176778",
-      "systemId": 300
-    },
-    "position": {
-      "type": "Point",
-      "coordinates": [
-        -122.421199,
-        37.807111
-      ]
-    },
-    "status": "active"
-  },
-  {
     "id": "6155657",
     "type": "point_of_interest",
     "name": "Yerba Buena Ice Skating Center",
@@ -709,6 +692,23 @@
       "coordinates": [
         -122.40158,
         37.78658
+      ]
+    },
+    "status": "active"
+  },
+  {
+    "id": "6155062",
+    "type": "point_of_interest",
+    "name": "Buddha's Universal Church",
+    "source": {
+      "srcId": "6155062",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.40531,
+        37.79535
       ]
     },
     "status": "active"
@@ -1479,6 +1479,23 @@
     "status": "active"
   },
   {
+    "id": "6176778",
+    "type": "point_of_interest",
+    "name": "Fishermans Wharf Cable Car Turnaround",
+    "source": {
+      "srcId": "6176778",
+      "systemId": 300
+    },
+    "position": {
+      "type": "Point",
+      "coordinates": [
+        -122.421199,
+        37.807111
+      ]
+    },
+    "status": "active"
+  },
+  {
     "id": "507483",
     "type": "point_of_interest",
     "name": "Lincoln Park",
@@ -1593,23 +1610,6 @@
       "coordinates": [
         -122.44188,
         37.800097
-      ]
-    },
-    "status": "active"
-  },
-  {
-    "id": "6155062",
-    "type": "point_of_interest",
-    "name": "Buddha's Universal Church",
-    "source": {
-      "srcId": "6155062",
-      "systemId": 300
-    },
-    "position": {
-      "type": "Point",
-      "coordinates": [
-        -122.40531,
-        37.79535
       ]
     },
     "status": "active"
