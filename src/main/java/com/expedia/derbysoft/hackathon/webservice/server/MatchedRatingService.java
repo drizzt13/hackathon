@@ -44,7 +44,7 @@ public class MatchedRatingService {
     }
 
     private HotelDTO translateHotelDTO(HotelInfo hotelInfo, GeoLocation searchLocation) {
-        if (hotelInfo.getPrice() == null) {
+        if (hotelInfo.getPrice() == null || hotelInfo.getPrice().getBaseRate() == null) {
             return null;
         }
         HotelDTO hotelDTO = new HotelDTO();
@@ -75,6 +75,7 @@ public class MatchedRatingService {
             List<ReviewSummary> reviewSummary = reviewDetails.getReviewSummaryCollection().getReviewSummary();
             if (reviewSummary != null && reviewSummary.isEmpty()) {
                 BigDecimal avgOverallRating = reviewSummary.get(0).getAvgOverallRating();
+                System.out.println(hotelInfo.getHotelID() + "-" + avgOverallRating);
                 if (avgOverallRating != null) {
                     guestRating = avgOverallRating;
                 }

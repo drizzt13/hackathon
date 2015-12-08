@@ -7,7 +7,7 @@ import org.junit.Test;
 
 public class ClientHotelSearchWebServiceTest {
 
-    private String url = "http://localhost:8080/dpaladin/hotelsearch?location=47.6063889,-122.3308333&radius=5km&dates=2016-05-19,2016-05-22";
+    private String url = "http://localhost:8080/dpaladin/hotelsearch?location=40.7127837,-74.0059413&radius=5km&dates=2016-05-19,2016-05-22";
 
     @Test
     public void test() {
