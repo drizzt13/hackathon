@@ -1,4 +1,4 @@
-package com.expedia.derbysoft.hackathon.poi;
+package com.expedia.derbysoft.hackathon.webservice.client.expedia.dto;
 
 public class Source {
 

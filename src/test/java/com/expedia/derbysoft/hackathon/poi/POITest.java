@@ -2,17 +2,18 @@ package com.expedia.derbysoft.hackathon.poi;
 
 import com.alibaba.fastjson.JSONObject;
 import com.expedia.derbysoft.hackathon.utils.JsonUtils;
+import com.expedia.derbysoft.hackathon.webservice.client.expedia.dto.POI;
 import org.junit.Test;
 
 import java.util.List;
 
 import static org.junit.Assert.assertNotNull;
 
-public class HotelTest {
+public class POITest {
 
     @Test
     public void test() {
-        List<Hotel> objects = JSONObject.parseArray(request, Hotel.class);
+        List<POI> objects = JSONObject.parseArray(request, POI.class);
         String values = JsonUtils.marshal(objects);
         assertNotNull(values);
         System.out.println(values);
