@@ -38,9 +38,9 @@ public class MatchedRatingService {
         hotelDTO.setThumbnailUrl(hotelInfo.getThumbnailUrl());
         GeoLocation hotelLocation = hotelInfo.getLocation().getGeoLocation();
         hotelDTO.setLocation(hotelLocation);
-        hotelDTO.setMatchedRating(new BigDecimal("4"));
         double distance = LatLngs.distance(location.getLatitude(), location.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
         hotelDTO.setDistance(BigDecimal.valueOf(distance));
+        hotelDTO.setMatchedRating(MatchedRatingCalculator.calculate(hotelDTO.getDistance(), new BigDecimal(hotelInfo.getGuestRating())));
         return hotelDTO;
     }
 
