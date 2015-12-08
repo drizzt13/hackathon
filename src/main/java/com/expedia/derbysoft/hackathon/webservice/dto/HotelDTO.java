@@ -21,6 +21,8 @@ public class HotelDTO {
 
     private BigDecimal matchedRating;
 
+    private BigDecimal guestRating;
+
     private BigDecimal distance;
 
     public String getHotelID() {
@@ -85,5 +87,13 @@ public class HotelDTO {
 
     public void setDistance(BigDecimal distance) {
         this.distance = distance;
+    }
+
+    public BigDecimal getGuestRating() {
+        return guestRating;
+    }
+
+    public void setGuestRating(BigDecimal guestRating) {
+        this.guestRating = guestRating;
     }
 }

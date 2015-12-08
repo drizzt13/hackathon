@@ -47,13 +47,14 @@ public class MatchedRatingService {
         hotelDTO.setHotelID(hotelInfo.getHotelID());
         hotelDTO.setHotelName(hotelInfo.getName());
         hotelDTO.setThumbnailUrl(hotelInfo.getThumbnailUrl());
+        hotelDTO.setGuestRating(hotelInfo.getGuestRating());
         GeoLocation hotelLocation = hotelInfo.getLocation().getGeoLocation();
         hotelDTO.setLocation(hotelLocation);
         double distance = LatLngs.distance(location.getLatitude(), location.getLongitude(), hotelLocation.getLatitude(), hotelLocation.getLongitude());
         hotelDTO.setDistance(BigDecimals.roundUp(distance / 1000));
         BigDecimal guestRating = BigDecimal.ZERO;
         if (hotelInfo.getGuestRating() != null) {
-            guestRating = new BigDecimal(hotelInfo.getGuestRating());
+            guestRating = hotelInfo.getGuestRating();
         }
         hotelDTO.setMatchedRating(MatchedRatingCalculator.calculate(hotelDTO.getDistance(), guestRating));
         return hotelDTO;

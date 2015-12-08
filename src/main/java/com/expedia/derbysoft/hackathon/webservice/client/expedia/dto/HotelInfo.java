@@ -1,5 +1,9 @@
 package com.expedia.derbysoft.hackathon.webservice.client.expedia.dto;
 
+import com.expedia.derbysoft.hackathon.utils.BigDecimals;
+
+import java.math.BigDecimal;
+
 /**
  * Created by zhupan on 12/7/15.
  */
@@ -23,7 +27,7 @@ public class HotelInfo {
 
     private String thumbnailUrl;
 
-    private String guestRating;
+    private BigDecimal guestRating;
 
     private String guestReviewCount;
 
@@ -99,11 +103,11 @@ public class HotelInfo {
         this.thumbnailUrl = thumbnailUrl;
     }
 
-    public String getGuestRating() {
+    public BigDecimal getGuestRating() {
         return guestRating;
     }
 
-    public void setGuestRating(String guestRating) {
+    public void setGuestRating(BigDecimal guestRating) {
         this.guestRating = guestRating;
     }
 
